@@ -25,7 +25,11 @@
 
   <h3>Your Courses</h3>
   <ul id="course-list">
-  <button id="clear">Clear</button>
+    <!-- Bug fix: Button cannot be child of ul element, inserted button into li -->
+    <li>
+      <button id="clear">Clear</button>
+    </li>
+  
 
   <h3>Your GPA</h3>
   <div id="result"></div>
