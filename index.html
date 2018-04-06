@@ -18,17 +18,18 @@
     <input type="text" name="name">
 
     <label for="grade">Grade</label>
-    <input type="text" name="grade">
+    <input type="text" name="grade" id="grade">
 
     <input type="submit">
   </form>
 
   <h3>Your Courses</h3>
   <ul id="course-list">
-    <!-- Bug fix: Button cannot be child of ul element, inserted button into li -->
+    <!-- Bug fix: Button cannot be child of ul element, inserted button into li, and close ul tag -->
     <li>
       <button id="clear">Clear</button>
     </li>
+  </ul>
   
 
   <h3>Your GPA</h3>
