@@ -40,9 +40,6 @@ function addACourse(){
   /*
     TODO: validate that "grade" value is a number between 1.0 and 4.0, stop processing if it is not.
     
-    = /^[1-4]+$/
-    if()
-
     Checking 'grade typeof "number"' will always return true because we called parseFloat.
     We must instead check that it's value is not NaN.
 
